@@ -19,7 +19,7 @@ const footerLinks = {
   ],
   contact: [
     { label: 'Paris, France', href: '#', external: false },
-    { label: 'contact@yurican.fr', href: 'mailto:contact@yurican.fr', external: true },
+    { label: 'jean-philippe@yurican.com', href: 'mailto:jean-philippe@yurican.com', external: true },
   ],
 }
 

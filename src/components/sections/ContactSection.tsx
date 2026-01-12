@@ -5,8 +5,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: import.meta.env.VITE_CONTACT_EMAIL || 'contact@yurican.fr',
-    href: `mailto:${import.meta.env.VITE_CONTACT_EMAIL || 'contact@yurican.fr'}`,
+    value: import.meta.env.VITE_CONTACT_EMAIL || 'jean-philippe@yurican.com.fr',
+    href: `mailto:${import.meta.env.VITE_CONTACT_EMAIL || 'jean-philippe@yurican.com.fr'}`,
   },
   {
     icon: MapPin,

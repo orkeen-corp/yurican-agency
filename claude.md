@@ -447,7 +447,7 @@ className="transition-all hover:scale-105"
 
 ```env
 VITE_CALENDLY_URL=https://calendly.com/yurican
-VITE_CONTACT_EMAIL=contact@yurican.fr
+VITE_CONTACT_EMAIL=jean-philippe@yurican.com
 VITE_GA_ID=G-XXXXXXXXXX
 ```
 

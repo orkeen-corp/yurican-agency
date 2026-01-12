@@ -383,7 +383,7 @@ const YuricanLandingPage = () => {
               <h4 className="font-bold mb-4">Contact</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
                 <li>Paris, France</li>
-                <li><a href="mailto:contact@yurican.fr" className="hover:text-white transition-colors">contact@yurican.fr</a></li>
+                <li><a href="mailto:jean-philippe@yurican.com.fr" className="hover:text-white transition-colors">jean-philippe@yurican.com</a></li>
               </ul>
             </div>
           </div>
