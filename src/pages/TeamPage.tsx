@@ -25,7 +25,7 @@ export default function TeamPage() {
               Notre Équipe
             </h1>
             <p className="text-xl text-slate-600 max-w-2xl">
-              4 experts avec plus de 50 ans d'expérience cumulée dans la data B2B,
+              2 experts avec plus de 20 ans d'expérience cumulée dans la data B2B,
               le RevOps et le développement technique.
             </p>
           </div>
