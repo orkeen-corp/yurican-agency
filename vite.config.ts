@@ -5,20 +5,8 @@ import history from 'connect-history-api-fallback'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    {
-      name: 'spa-fallback',
-      configureServer(server) {
-        server.middlewares.use(
-          history({
-            disableDotRule: true,
-            htmlAcceptHeaders: ['text/html', 'application/xhtml+xml'],
-          })
-        )
-      },
-    },
-  ],
+  plugins: [react()],
+  appType: 'spa', // ← Active le fallback automatique vers index.html
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
