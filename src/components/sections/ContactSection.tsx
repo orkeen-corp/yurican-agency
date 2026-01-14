@@ -29,7 +29,7 @@ const reassurances = [
 ]
 
 export function ContactSection() {
-  const calendlyUrl = import.meta.env.VITE_CALENDLY_URL || 'https://calendly.com/yurican'
+  const calendlyUrl = import.meta.env.VITE_CALENDLY_URL || 'https://calendly.com/jean-philippe-yurican'
 
   return (
     <section className="py-24 px-6 bg-white">
