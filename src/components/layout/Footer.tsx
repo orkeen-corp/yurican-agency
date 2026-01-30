@@ -5,12 +5,12 @@ import { Linkedin, Twitter, Github } from 'lucide-react'
 
 const footerLinks = {
   services: [
-    { label: 'Audit RevOps', href: '/services' },
-    { label: 'CRM', href: '/services' },
-    { label: 'Automatisation', href: '/services' },
-    { label: 'Data France', href: '/services' },
-    { label: 'Intégrations', href: '/services' },
-    { label: 'Formation', href: '/services' },
+    { label: 'Audit RevOps', href: '/services/audit-revops' },
+    { label: 'CRM', href: '/services/implementation-crm' },
+    { label: 'Automatisation', href: '/services/automatisation' },
+    { label: 'Data France', href: '/services/data-france' },
+    { label: 'Intégrations', href: '/services/integration' },
+    { label: 'Formation', href: '/services/formation' },
   ],
   resources: [
     { label: 'Blog', href: '#', external: false },

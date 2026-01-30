@@ -16,7 +16,15 @@
       "WebSearch",
       "WebFetch(domain:vite.dev)",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:gist.github.com)"
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:claude.ai)",
+      "mcp__next-devtools__browser_eval",
+      "Bash(curl:*)",
+      "Bash(npm run build)",
+      "Bash(timeout:*)",
+      "Bash(Start-Sleep -Seconds 5)",
+      "Bash(Get-Content C:UsersmickaAppDataLocalTempclaudeC--Users-micka-Projets-yurican-agencytasksb065f56.output)",
+      "Bash(ping:*)"
     ]
   }
 }

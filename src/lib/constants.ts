@@ -58,8 +58,8 @@ export const services = [
   {
     id: 'formation',
     icon: '🎓',
-    title: 'Formation',
-    desc: 'Coaching équipes sur CRM, process RevOps, data quality',
+    title: 'Accompagnement',
+    desc: 'Montée en compétences des équipes',
     price: '1 500€/jour',
   },
 ]

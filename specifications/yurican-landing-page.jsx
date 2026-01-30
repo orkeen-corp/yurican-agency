@@ -53,7 +53,7 @@ const YuricanLandingPage = () => {
     { icon: '🤖', title: 'Automatisation', desc: 'Workflows N8N, Make. Séquences, routing, enrichissement', price: 'À partir de 3 000€' },
     { icon: '🇫🇷', title: 'Data France', desc: 'Enrichissement BODACC, SIRENE, BOAMP dans votre CRM', price: '500€/mois' },
     { icon: '🔗', title: 'Intégrations', desc: 'Connecteurs API custom, ERP français, systèmes legacy', price: 'Sur devis' },
-    { icon: '🎓', title: 'Formation', desc: 'Coaching équipes sur CRM, process RevOps, data quality', price: '1 500€/jour' },
+    { icon: '🎓', title: 'Accompagnement', desc: 'Coaching équipes sur CRM, process RevOps, data quality', price: '1 500€/jour' },
   ];
 
   const team = [
