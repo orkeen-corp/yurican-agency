@@ -24,7 +24,8 @@
       "Bash(timeout:*)",
       "Bash(Start-Sleep -Seconds 5)",
       "Bash(Get-Content C:UsersmickaAppDataLocalTempclaudeC--Users-micka-Projets-yurican-agencytasksb065f56.output)",
-      "Bash(ping:*)"
+      "Bash(ping:*)",
+      "mcp__shadcn__get_component_demo"
     ]
   }
 }
