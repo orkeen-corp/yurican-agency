@@ -90,11 +90,14 @@ export function Header() {
                 <NavigationMenuItem>
                   <NavigationMenuTrigger
                     className={cn(
-                      'bg-transparent hover:bg-transparent focus:bg-transparent data-[state=open]:bg-transparent',
-                      'font-medium text-base px-0 h-auto',
+                      'bg-transparent hover:bg-transparent focus:bg-transparent',
+                      'data-[state=open]:bg-transparent data-[state=open]:hover:bg-transparent data-[state=open]:focus:bg-transparent',
+                      'font-medium text-base px-0 py-0 h-auto',
+                      'transition-opacity hover:opacity-80',
+                      'focus:text-inherit',
                       showSolidHeader
-                        ? 'text-gray-700 hover:text-primary data-[state=open]:text-primary'
-                        : 'text-white/90 hover:text-white data-[state=open]:text-white',
+                        ? 'text-gray-700 data-[state=open]:text-primary'
+                        : 'text-white/90 data-[state=open]:text-white',
                       location.pathname.startsWith('/services') && (showSolidHeader ? 'text-primary font-semibold' : 'text-white font-semibold')
                     )}
                   >
