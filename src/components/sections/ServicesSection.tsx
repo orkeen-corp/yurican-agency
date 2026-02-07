@@ -7,7 +7,7 @@ export function ServicesSection() {
     <section id="services" className="py-24 px-6 bg-slate-50">
       <div className="max-w-6xl mx-auto">
         <SectionTitle
-          title="Ce qu'on fait (vraiment bien)"
+          title="Notre expertise"
           subtitle="De l'audit à l'automatisation, nous couvrons l'ensemble de votre chaîne de revenus"
           className="mb-16"
         />
